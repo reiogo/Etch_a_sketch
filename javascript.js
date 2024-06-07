@@ -30,7 +30,7 @@ container.addEventListener("mouseover", (event)=> {
 
         target.style.backgroundColor = randomColor;
         target.style.opacity = 
-            1 + Number(target.style.opacity);
+            0.1 + Number(target.style.opacity);
         console.log('hello'+typeof target.style.opacity);
 
     })
