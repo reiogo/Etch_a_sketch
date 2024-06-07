@@ -1,1 +1,10 @@
-// css style for etch-a-sketch
+ /* css style for etch-a-sketch */
+body {
+  margin: 0px;
+}
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
