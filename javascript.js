@@ -4,7 +4,7 @@ for (let i=0; i<16; i++) {
     gridDiv.setAttribute("id", i);
     let container = 
         document.querySelector("#container");
-    gridDiv.style = "width: 25vw; height: 300px; background-color: red";
+    gridDiv.style = "width: 24.805vw; aspect-ratio: 1; background-color: red";
     gridDiv.textContent = `hello I'm ${i}`;
     container.appendChild(gridDiv);
     
