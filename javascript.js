@@ -1,5 +1,5 @@
 // Create 16x16 grid.
-createGrid(4);
+createGrid(100);
 
 // Function for creating grids.
 function createGrid (rowNumber) {
